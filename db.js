@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize');
 
 module.exports = new Sequelize(
-    'postgres1',
+    'countUsers',
     'admin',
     'Ilyshk0',
     {

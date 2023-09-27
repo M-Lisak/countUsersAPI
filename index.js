@@ -7,7 +7,7 @@ const port = 3000
 
 
 app.get('/init', (req, res) =>  {
-    console.log("req", req?.headers)
+    console.log("req", req.headers)
     //записываем в БД
 
 })
