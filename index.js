@@ -60,9 +60,9 @@ app.get('/startBD', async (req, res) =>  {
 //     }
 // })
 
-app.get('/getCount', (req, res) => {
+app.get('/getCount', async(req, res) => {
     //Получаем из бд
-    const data = UserModel.findAll()
+    const data = await UserModel.findAll()
     console.log("data", data)
     res.send(data)
 })
