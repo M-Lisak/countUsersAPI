@@ -6,7 +6,8 @@ const User = sequelize.define('user', {
     api_Standart: { type: DataTypes.STRING },
     api_Statistics: { type: DataTypes.STRING },
     api_Advert: { type: DataTypes.STRING },
-    dateAndTime: { type: DataTypes.DATE }
+    startDate: { type: DataTypes.DATE },
+    lastDate: { type: DataTypes.DATE },
 })
 
 module.exports = User;
